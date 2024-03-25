@@ -1,0 +1,121 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+    /*tem uma margin natural do browser..Opção para retirar*/
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 14px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+/*Seletor Html(id)=>Css(#) e tem seletor Html(Class)=>Css(.)  (mais usado)*/
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+
+    /*  Com as padding=20px posso usar uma padding só
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;*/
+}
+
+/*Centralizando o icone do H2*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+
+/*Width de 50% ele pula uma linha..logo deve ser de 49% para ser na mesma linha
+html alinhado tag <p>, podemos utilizar width de 50% pois ira preencher todo o espaço do menu*/
+.flavor,
+.dessert {
+    text-align: left;
+    width: 69%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER*/
+footer {
+    font-size: 14px;
+}
+
+
+.address {
+    margin-bottom: 5px;
+}
+
+
+/*Mantem a cor do link da mesma cor */
+a {
+    color: black;
+}
+
+/*Muda as propriedades de um link quando o link tenha sido visitado de fato usando um pseudosseletor*/
+a:visited {
+    color: black;
+}
+
+/*altera quando coloca o mouse em cima*/
+a:hover {
+    color: brown;
+}
+
+/*Muda a cor quando clica em cima*/
+a:active {
+    color: brown;
+}
